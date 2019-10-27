@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 #import "TestViewController.h"
-#import "Test1ViewController.h"
+#import "SingleSelectViewController.h"
+#import "MultipleSelectViewController.h"
+#import "CustomMultipleSelectViewController.h"
 #import "Test2ViewController.h"
 #import "Test3ViewController.h"
 @interface ViewController ()
@@ -43,7 +45,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    return 6;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 50;
@@ -60,12 +62,18 @@
             tempStr = @"cell折叠(默认关闭)";
             break;
         case 1:
-            tempStr = @"单/多Section单选";
+            tempStr = @"单选";
             break;
         case 2:
-            tempStr = @"单/多Section多选";
+            tempStr = @"多选";
             break;
         case 3:
+            tempStr = @"自定义多选";
+            break;
+        case 4:
+            tempStr = @"单/多Section多选";
+            break;
+        case 5:
             tempStr = @"多Section多选(分组内单选)";
             break;
     }
@@ -89,16 +97,26 @@
         [self.navigationController pushViewController:vc animated:YES];
     }
     else if (indexPath.row == 1){
-        Test1ViewController *vc = [Test1ViewController new];
+        SingleSelectViewController *vc = [SingleSelectViewController new];
         testVc.title = cell.textLabel.text;
         [self.navigationController pushViewController:vc animated:YES];
     }
     else if (indexPath.row == 2){
-        Test2ViewController *vc = [Test2ViewController new];
+        MultipleSelectViewController *vc = [MultipleSelectViewController new];
         testVc.title = cell.textLabel.text;
         [self.navigationController pushViewController:vc animated:YES];
     }
     else if (indexPath.row == 3){
+       CustomMultipleSelectViewController *vc = [CustomMultipleSelectViewController new];
+       testVc.title = cell.textLabel.text;
+       [self.navigationController pushViewController:vc animated:YES];
+       }
+    else if (indexPath.row == 4){
+        Test2ViewController *vc = [Test2ViewController new];
+        testVc.title = cell.textLabel.text;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if (indexPath.row == 5){
         Test3ViewController *vc = [Test3ViewController new];
         testVc.title = cell.textLabel.text;
         [self.navigationController pushViewController:vc animated:YES];

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0780DA3236583D4003A1721 /* SingleSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0780DA2236583D4003A1721 /* SingleSelectCell.m */; };
+		C0780DA6236583E2003A1721 /* MultipleSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0780DA5236583E2003A1721 /* MultipleSelectCell.m */; };
+		C0780DAD23658C68003A1721 /* MultipleSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0780DAC23658C68003A1721 /* MultipleSelectViewController.m */; };
+		C0780DB223659177003A1721 /* CustomMultipleSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0780DB123659177003A1721 /* CustomMultipleSelectViewController.m */; };
 		C0B951A521C2021800F04CC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B951A421C2021800F04CC3 /* AppDelegate.m */; };
 		C0B951A821C2021800F04CC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B951A721C2021800F04CC3 /* ViewController.m */; };
 		C0B951AB21C2021800F04CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B951A921C2021800F04CC3 /* Main.storyboard */; };
@@ -16,12 +20,20 @@
 		C0B951BB21C2042C00F04CC3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B951BA21C2042C00F04CC3 /* TestViewController.m */; };
 		C0B951BE21C2051900F04CC3 /* TestCustomHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B951BD21C2051900F04CC3 /* TestCustomHeaderView.m */; };
 		C0B951C121C22C2F00F04CC3 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B951C021C22C2F00F04CC3 /* TestTableViewCell.m */; };
-		C0B951C421C22E3500F04CC3 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B951C321C22E3500F04CC3 /* Test1ViewController.m */; };
+		C0B951C421C22E3500F04CC3 /* SingleSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B951C321C22E3500F04CC3 /* SingleSelectViewController.m */; };
 		C0B951C721C23FE300F04CC3 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B951C621C23FE300F04CC3 /* Test2ViewController.m */; };
 		C0B951CA21C2583C00F04CC3 /* Test3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B951C921C2583C00F04CC3 /* Test3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0780DA1236583D4003A1721 /* SingleSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleSelectCell.h; sourceTree = "<group>"; };
+		C0780DA2236583D4003A1721 /* SingleSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleSelectCell.m; sourceTree = "<group>"; };
+		C0780DA4236583E2003A1721 /* MultipleSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipleSelectCell.h; sourceTree = "<group>"; };
+		C0780DA5236583E2003A1721 /* MultipleSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleSelectCell.m; sourceTree = "<group>"; };
+		C0780DAB23658C68003A1721 /* MultipleSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipleSelectViewController.h; sourceTree = "<group>"; };
+		C0780DAC23658C68003A1721 /* MultipleSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleSelectViewController.m; sourceTree = "<group>"; };
+		C0780DB023659177003A1721 /* CustomMultipleSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomMultipleSelectViewController.h; sourceTree = "<group>"; };
+		C0780DB123659177003A1721 /* CustomMultipleSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMultipleSelectViewController.m; sourceTree = "<group>"; };
 		C0B951A021C2021800F04CC3 /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B951A321C2021800F04CC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0B951A421C2021800F04CC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,8 +50,8 @@
 		C0B951BD21C2051900F04CC3 /* TestCustomHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCustomHeaderView.m; sourceTree = "<group>"; };
 		C0B951BF21C22C2F00F04CC3 /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
 		C0B951C021C22C2F00F04CC3 /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
-		C0B951C221C22E3500F04CC3 /* Test1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
-		C0B951C321C22E3500F04CC3 /* Test1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		C0B951C221C22E3500F04CC3 /* SingleSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleSelectViewController.h; sourceTree = "<group>"; };
+		C0B951C321C22E3500F04CC3 /* SingleSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleSelectViewController.m; sourceTree = "<group>"; };
 		C0B951C521C23FE300F04CC3 /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
 		C0B951C621C23FE300F04CC3 /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
 		C0B951C821C2583C00F04CC3 /* Test3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3ViewController.h; sourceTree = "<group>"; };
@@ -57,6 +69,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0780D9F2365832F003A1721 /* cell单选 */ = {
+			isa = PBXGroup;
+			children = (
+				C0B951C221C22E3500F04CC3 /* SingleSelectViewController.h */,
+				C0B951C321C22E3500F04CC3 /* SingleSelectViewController.m */,
+				C0780DAB23658C68003A1721 /* MultipleSelectViewController.h */,
+				C0780DAC23658C68003A1721 /* MultipleSelectViewController.m */,
+				C0780DA1236583D4003A1721 /* SingleSelectCell.h */,
+				C0780DA2236583D4003A1721 /* SingleSelectCell.m */,
+				C0780DAE2365914B003A1721 /* 自定义多选 */,
+			);
+			path = "cell单选";
+			sourceTree = "<group>";
+		};
+		C0780DA02365833D003A1721 /* cell折叠(仿QQ列表) */ = {
+			isa = PBXGroup;
+			children = (
+				C0B951B921C2042C00F04CC3 /* TestViewController.h */,
+				C0B951BA21C2042C00F04CC3 /* TestViewController.m */,
+			);
+			path = "cell折叠(仿QQ列表)";
+			sourceTree = "<group>";
+		};
+		C0780DA723658A41003A1721 /* 多选 */ = {
+			isa = PBXGroup;
+			children = (
+				C0B951C521C23FE300F04CC3 /* Test2ViewController.h */,
+				C0B951C621C23FE300F04CC3 /* Test2ViewController.m */,
+				C0B951C821C2583C00F04CC3 /* Test3ViewController.h */,
+				C0B951C921C2583C00F04CC3 /* Test3ViewController.m */,
+			);
+			path = "多选";
+			sourceTree = "<group>";
+		};
+		C0780DAE2365914B003A1721 /* 自定义多选 */ = {
+			isa = PBXGroup;
+			children = (
+				C0780DB023659177003A1721 /* CustomMultipleSelectViewController.h */,
+				C0780DB123659177003A1721 /* CustomMultipleSelectViewController.m */,
+				C0780DA4236583E2003A1721 /* MultipleSelectCell.h */,
+				C0780DA5236583E2003A1721 /* MultipleSelectCell.m */,
+			);
+			path = "自定义多选";
+			sourceTree = "<group>";
+		};
 		C0B9519721C2021800F04CC3 = {
 			isa = PBXGroup;
 			children = (
@@ -80,14 +137,9 @@
 				C0B951A421C2021800F04CC3 /* AppDelegate.m */,
 				C0B951A621C2021800F04CC3 /* ViewController.h */,
 				C0B951A721C2021800F04CC3 /* ViewController.m */,
-				C0B951B921C2042C00F04CC3 /* TestViewController.h */,
-				C0B951BA21C2042C00F04CC3 /* TestViewController.m */,
-				C0B951C221C22E3500F04CC3 /* Test1ViewController.h */,
-				C0B951C321C22E3500F04CC3 /* Test1ViewController.m */,
-				C0B951C521C23FE300F04CC3 /* Test2ViewController.h */,
-				C0B951C621C23FE300F04CC3 /* Test2ViewController.m */,
-				C0B951C821C2583C00F04CC3 /* Test3ViewController.h */,
-				C0B951C921C2583C00F04CC3 /* Test3ViewController.m */,
+				C0780DA02365833D003A1721 /* cell折叠(仿QQ列表) */,
+				C0780D9F2365832F003A1721 /* cell单选 */,
+				C0780DA723658A41003A1721 /* 多选 */,
 				C0B951BF21C22C2F00F04CC3 /* TestTableViewCell.h */,
 				C0B951C021C22C2F00F04CC3 /* TestTableViewCell.m */,
 				C0B951BC21C2051900F04CC3 /* TestCustomHeaderView.h */,
@@ -175,9 +227,13 @@
 				C0B951C721C23FE300F04CC3 /* Test2ViewController.m in Sources */,
 				C0B951CA21C2583C00F04CC3 /* Test3ViewController.m in Sources */,
 				C0B951C121C22C2F00F04CC3 /* TestTableViewCell.m in Sources */,
+				C0780DAD23658C68003A1721 /* MultipleSelectViewController.m in Sources */,
 				C0B951B321C2021A00F04CC3 /* main.m in Sources */,
 				C0B951BB21C2042C00F04CC3 /* TestViewController.m in Sources */,
-				C0B951C421C22E3500F04CC3 /* Test1ViewController.m in Sources */,
+				C0780DA6236583E2003A1721 /* MultipleSelectCell.m in Sources */,
+				C0B951C421C22E3500F04CC3 /* SingleSelectViewController.m in Sources */,
+				C0780DB223659177003A1721 /* CustomMultipleSelectViewController.m in Sources */,
+				C0780DA3236583D4003A1721 /* SingleSelectCell.m in Sources */,
 				C0B951A521C2021800F04CC3 /* AppDelegate.m in Sources */,
 				C0B951BE21C2051900F04CC3 /* TestCustomHeaderView.m in Sources */,
 			);
@@ -322,12 +378,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M62W98N2A;
 				INFOPLIST_FILE = TableViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cjkt.TableViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiyunkeji.TableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -338,12 +395,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M62W98N2A;
 				INFOPLIST_FILE = TableViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cjkt.TableViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiyunkeji.TableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
